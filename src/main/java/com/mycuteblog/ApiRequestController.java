@@ -59,24 +59,24 @@ public class ApiRequestController {
         	secondChild2.add(new SecondChild(new Long(4),"test4", "8"));*/
         	Set<SecondChild> secondChild1 = new HashSet<SecondChild>();
         	
-        	secondChild1.add(new SecondChild(null,"test", "1"));
-        	secondChild1.add(new SecondChild(null,"test", "2"));
-        	secondChild1.add(new SecondChild(null,"test", "3"));
-        	secondChild1.add(new SecondChild(null,"test", "4"));
+        	secondChild1.add(new SecondChild(null,"test1", "1"));
+        	secondChild1.add(new SecondChild(null,"test2", "2"));
+        	secondChild1.add(new SecondChild(null,"test3", "3"));
+        	secondChild1.add(new SecondChild(null,"test4", "4"));
         	
         	Set<SecondChild> secondChild2 = new HashSet<SecondChild>();
         	
-        	secondChild2.add(new SecondChild(null,"test1", "1"));
-        	secondChild2.add(new SecondChild(null,"test2", "2"));
-        	secondChild2.add(new SecondChild(null,"test3", "3"));
-        	secondChild2.add(new SecondChild(null,"test4", "4"));
+        	secondChild2.add(new SecondChild(null,"test5", "5"));
+        	secondChild2.add(new SecondChild(null,"test6", "6"));
+        	secondChild2.add(new SecondChild(null,"test7", "7"));
+        	secondChild2.add(new SecondChild(null,"test8", "8"));
         	
         	Set<SecondChild> secondChild3 = new HashSet<SecondChild>();
         	
-        	secondChild2.add(new SecondChild(null,"test1", "5"));
-        	secondChild2.add(new SecondChild(null,"test2", "6"));
-        	secondChild2.add(new SecondChild(null,"test3", "7"));
-        	secondChild2.add(new SecondChild(null,"test4", "8"));
+        	secondChild3.add(new SecondChild(null,"test9", "9"));
+        	secondChild3.add(new SecondChild(null,"test10", "10"));
+        	secondChild3.add(new SecondChild(null,"test11", "11"));
+        	secondChild3.add(new SecondChild(null,"test12", "12"));
         	
         	Connection connection1 = new Connection("connection1", secondChild1);
         	Connection connection2 = new Connection("connection2", secondChild2);

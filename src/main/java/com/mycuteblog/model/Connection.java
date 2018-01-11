@@ -24,7 +24,7 @@ public class Connection {
 	private String connectionType;
 	
 	@OneToMany(cascade=CascadeType.ALL)
-	@JoinColumn(name="child_id")
+	@JoinColumn(name="connection_id")
 	private Set<SecondChild> secondChilds;
 	
 	public Connection(String connectionType, Set<SecondChild> secondChilds) {
